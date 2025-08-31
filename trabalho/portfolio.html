@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio — Seu Nome</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrapper">
+    <nav>
+      <div class="brand"><span class="dot"></span> <span>Guilherme Zucherato</span></div>
+      <ul>
+        <li><a href="index.html">Sobre mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a class="active" href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrapper">
+  <section class="panel">
+    <h1>Portfólio</h1>
+    <div class="grid cols-2" style="margin-top:14px">
+      <!-- Card 1 -->
+      <article class="card">
+        <div class="thumb"></div>
+        <div class="body">
+          <div class="title">Projeto 1 — MODO FÊNIX</div>
+          <div class="tags">WORDPRESS • HTML • CSS</div>
+          <p class="desc">Landing Page</p>
+          <p><a href="https://treinadorleoaraujo.com/modo-fenix" target="_blank" rel="noopener">Abrir projeto ↗</a></p>
+        </div>
+      </article>
+      <!-- Card 2 -->
+      <article class="card">
+        <div class="thumb"></div>
+        <div class="body">
+          <div class="title">Projeto 2 — STUDIO MOLDDD</div>
+          <div class="tags">WORDPRESS • HTML • CSS</div>
+          <p class="desc">Landing Page</p>
+          <p><a href="https://studiomolddd.com.br/" target="_blank" rel="noopener">Abrir projeto ↗</a></p>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrapper">© <span id="y"></span> Guilherme Zucherato — Portfólio</div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
