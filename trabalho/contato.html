@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato — Seu Nome</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrapper">
+    <nav>
+      <div class="brand"><span class="dot"></span> <span>Guilherme Zucherato</span></div>
+      <ul>
+        <li><a href="index.html">Sobre mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a class="active" href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrapper">
+  <section class="panel">
+    <h1>Contato</h1>
+
+    <form>
+      <!-- comentários curtos explicando -->
+      <div>
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Seu nome" required>
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="seu@email.com" required>
+      </div>
+      <div>
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Como posso ajudar?" required></textarea>
+      </div>
+      <button type="submit" onclick="alert('Demonstração visual: envie pelo seu e-mail.'); return false;">
+        Enviar
+      </button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="wrapper">© <span id="y"></span> Guilherme Zucherato — Contato</div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
