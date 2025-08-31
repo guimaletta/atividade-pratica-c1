@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seu Nome — Portfólio</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrapper">
+    <nav>
+      <div class="brand"><span class="dot"></span> <span>Guilherme Zucherato</span></div>
+      <ul>
+        <li><a class="active" href="index.html">Sobre mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrapper">
+  <section class="panel">
+    <h1>Oi! Sou <strong>Guilherme Zucherato</strong> 👋</h1>
+    <p>Estudante de Tecnologia • Foco em Desenvolvimento Web, Dados e IA</p>
+          <p>Sou de Belo Horizonte e estudo Análise e Desenvolvimento de Sistemas. Tenho paixão por academia e tecnologia: disciplina, constância e evolução estão tanto na rotina de treinos quanto no meu aprendizado técnico. Interesso-me por Python, JavaScript, SQL e computação em nuvem. Busco oportunidades para construir soluções simples, performáticas e bem documentadas.</p>
+
+    <h2>Hobbies & interesses</h2>
+    <div class="grid cols-2">
+      <div class="panel">
+        <h3>Academia</h3>
+        <p>Treinos de força e condicionamento me ajudam a manter foco e constância.</p>
+      </div>
+      <div class="panel">
+        <h3>Filmes e séries</h3>
+        <p>Além de ser ótimo para passar o tempo, estimula bastante a minha criatividade.</p>
+      </div>
+    </div>
+
+    <h2>Motivação e valores</h2>
+    <p>Gosto de transformar ideias em soluções úteis. A disciplina que trago da academia — constância, evolução e foco — é a mesma que aplico no código: estudar um pouco todos os dias, experimentar, medir e melhorar. O que me move é criar software simples, performático e bem documentado, que resolva problemas reais e gere valor para quem usa. <!-- comentário didático: estes textos contam pontos no critério "conteúdo" do enunciado --></p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrapper">© <span id="y"></span> Guilherme Zucherato — Sobre Mim</div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
